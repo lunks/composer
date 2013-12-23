@@ -1,10 +1,14 @@
 # About
 
-Composer is a simple shell script to easily run [Rails Composer][rails_composer] from terminal without the need to remember uris or specific command parameters. Just run:
+Composer is a simple shell script to easily run [Rails Composer][rails_composer] from terminal without the need to remember uris or specific command parameters.First, add Composer's bin folder to your PATH variable:
+
+	~ export PATH=$PATH:/path_to_composer/composer/bin
+
+Then run the command below from anywhere:
 
 	~ compose APP_NAME
 
-And you're done.
+And you're done. Happy hacking!
 
 # License
 
